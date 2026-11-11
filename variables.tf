@@ -503,7 +503,7 @@ variable "default_ingress_cluster_routes_hostname" {
 variable "default_ingress_load_balancer_type" {
   type        = string
   default     = null
-  description = "Type of Load Balancer. Options are [\"classic\", \"nlb\"]`:with."
+  description = "Type of Load Balancer. Options are [\"classic\", \"nlb\"]."
 }
 
 variable "default_ingress_cluster_routes_tls_secret_ref" {
